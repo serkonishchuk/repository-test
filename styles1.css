@@ -1,0 +1,49 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+}
+div.center-block {
+    border: 3px solid rgb(3, 0, 0);
+    box-sizing: border-box;
+    width: 500px;
+    margin: 10px auto;
+    padding: 10px;
+    /*background-image: url('https://images.unsplash.com/photo-1508138221679-760a23a2285b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80');*/
+    background-color: rgb(30, 189, 189);
+}
+img {
+    width: 300px;
+}
+ 
+button {
+    margin: 10px;
+    padding: 5px 20px;
+    background: rgb(153, 146, 146);
+    color: black;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+ 
+button.btn-yellow {
+    background: yellow;
+}
+button.btn-green {
+    background: green;
+    color: white;
+}
+ 
+button:hover {
+    background: red;
+    color: white;
+}
+ 
+button:disabled {
+    background: grey;
+    color: white;
+}
+ 
+button:focus {
+    background: blue;
+    color: white;
+}
